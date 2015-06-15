@@ -1,10 +1,10 @@
 <?php
   /* ..............................................................................
-   * Author:--------------- Themearth Team
-   * AuthorEmail:-----------themearth.info@gmail.com
-   * Technical Support:---- http://themearth.com/
-   * Websites:------------- http://themearth.com/
-   * Copyright:------------ Copyright (C) 2015 logichunt.com. All Rights Reserved.
+   * Author:---------------
+   * AuthorEmail:-----------
+   * Technical Support:----
+   * Websites:-------------
+   * Copyright:------------ Copyright (C) 2015  All Rights Reserved.
    * License:-------------- http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
    * ..............................................................................
    * File:- contact.php

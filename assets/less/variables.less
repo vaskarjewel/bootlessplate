@@ -38,18 +38,16 @@
 
 
 //== Colors
-@ash-lighter:#f5f5f5;
-@ash-medium:#626262;
-@ash-darker:#d4d4d4;
 
-@black-base:#222;
-@black-lighten:#505050;
-@black-darker:lighten(#000, 13.5%); // #222
 
 @white-color:#fff;
-@white-nav:#f8f8f8;
 
 @brand-red:#e74f3f;
+
+@black-base:#000;
+@black-lighten:lighten(@black-base, 13.5%); // #222
+
+
 
 //== Typography Variable
 
@@ -57,9 +55,7 @@
 @font-family-sans-serif:  'Open Sans', Arial, sans-serif;
 @font-family-base:  @font-family-sans-serif;
 
-@headings-font-family:  'Chivo', Arial, sans-serif;
-@headings-font-weight:900;
+@headings-font-family: @font-family-base;
+@headings-font-weight:800;
 
-@lead-font-family:  'Roboto Slab', Arial, sans-serif;
-
-@font-size-base: 1.4;
+@font-size-base: 14;

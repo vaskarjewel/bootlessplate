@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Logichunt
+ * User:
  * Date: 5/30/2015
  * Time: 10:50 AM
  */
@@ -10,18 +10,18 @@
         //LGX ALL EMAIL CONFIGURATION
 //---------------------------------------------------------------------------------
 
-$admin_email_to        = 'logichunt.info@gmail.com'; /* Admin Email; Who Will Get The Contact Email Alert */
+$admin_email_to        = 'info@gmail.com'; /* Admin Email; Who Will Get The Contact Email Alert */
 
-$admin_email_name   = "Themearth Admin"; /* Admin Name/Company name who will get the email alert */
+$admin_email_name   = " Admin"; /* Admin Name/Company name who will get the email alert */
 
-$admin_email_from       = 'system.logichunt@outlook.com'; /* Admin email from which email address email will be sent */
+$admin_email_from       = 'system@outlook.com'; /* Admin email from which email address email will be sent */
 
-$admin_email_from_name  = 'CVHunt System'; /* Admin name from which email will be sent */
+$admin_email_from_name  = 'System'; /* Admin name from which email will be sent */
 
 
 $use_custom_subject = false; /* If you want to use custom subject then set true. To use form subject just ignore it. */
 
-$admin_email_subject = 'A new message from CVHunt Demo'; /* Custom email subject what the admin will get as contact email alert*/
+$admin_email_subject = 'A new message from Demo'; /* Custom email subject what the admin will get as contact email alert*/
 
 $copy_email_subject = 'Thanks for contact'; /* Email subject what the user will get if the user agreed or select "copy me" */
 
