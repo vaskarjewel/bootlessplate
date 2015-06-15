@@ -1,0 +1,179 @@
+#lgx-skills{
+  background: url('../img/bg/skills-bg.jpg') center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  margin: 0;
+
+  .lgx-inner {
+    .bg-rgba(@brand-color, .85);
+    padding: 0;
+    margin: 0;
+  }
+  .lgx-dark-inner {
+    .bg-rgba(@black-base, .85);
+    .lgx-skillscontent {
+      background-color: @black-base;
+      h2 {
+        color: @brand-color;
+      }
+      h3 {
+        color: @white-color;
+      }
+    }
+    .lgx-group-progress {
+      .lgx-single-progress {
+        p {
+          color: @white-color;
+        }
+      }
+    }
+
+    .lgx-progress-bar-container.color-lgxskill {
+      border-color: @brand-color;
+      background: @brand-color;    }
+
+    .lgx-skill-progress-bar {
+      background: @brand-color;
+    }
+
+    .lgx-skill-progress-bar.color-lgxskil {
+      background: @brand-color;
+    }
+  }
+
+
+  .lgx-skillscontent {
+    background-color: @brand-color;
+    padding: 0 9% 90px 25px;
+    margin-left: -15px;
+
+    h2 {
+      font-family: @headings-font-family;
+      font-weight: 900;
+      .font-size(3);
+      color: @white-color;
+      text-transform: uppercase;
+
+      padding-top: 80px;
+      margin-top: 0;
+    }
+
+    h3 {
+      color: @black-lighten;
+      margin-top: 15px;
+      font-family: @lead-font-family;
+      font-weight: 400;
+      .font-size(2);
+      margin-bottom: 40px;
+    }
+
+    .lgx-skills-description {
+      .font-size (1.5);
+      padding-left: 17%;
+      color: @white-color;
+      p {
+        color: inherit;
+      }
+    }
+  }
+  .lgx-more-about {
+    margin-top: 40px;
+  }
+
+
+  .lgx-group-progress {
+    margin-top: 90px;
+    display: inline-block;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 17%;
+    .lgx-single-progress {
+      margin-bottom: 30px;
+      p {
+        .font-size(1.8);
+        color: @black-darker;
+        margin-bottom: 10px;
+        span {
+          color: @white-color;
+          font-size: inherit;
+        }
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .lgx-progress-bar-container {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 100%;
+    height: 20px;
+    margin: 0 0 20px 0;
+    .border-radius(0);
+    background: #ecf0f1;
+    overflow: hidden;
+  }
+
+  .lgx-progress-bar-container.color-lgxskill {
+    border-color: @black-lighten;
+    background: @black-lighten;
+  }
+
+  .lgx-skill-progress-bar {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 0%;
+    height: 20px;
+    .border-radius(0);
+    background: @black-lighten;
+  }
+
+  .lgx-skill-progress-bar.color-lgxskil {
+    background: @black-lighten;
+  }
+
+  @-webkit-keyframes progressStripeLTR {
+    to { background-position: 30px 0; }
+  }
+
+  @-moz-keyframes progressStripeLTR {
+    to { background-position: 30px 0; }
+  }
+
+  @-ms-keyframes progressStripeLTR {
+    to { background-position: 30px 0; }
+  }
+
+  @-o-keyframes progressStripeLTR {
+    to { background-position: 30px 0; }
+  }
+
+  @keyframes progressStripeLTR {
+    to { background-position: 30px 0; }
+  }
+
+  @-webkit-keyframes progressStripeRTL {
+    to { background-position: -30px 0; }
+  }
+
+  @-moz-keyframes progressStripeRTL {
+    to { background-position: -30px 0; }
+  }
+
+  @-ms-keyframes progressStripeRTL {
+    to { background-position: -30px 0; }
+  }
+
+  @-o-keyframes progressStripeRTL {
+    to { background-position: -30px 0; }
+  }
+
+  @keyframes progressStripeRTL {
+    to { background-position: -30px 0; }
+  }
+
+}
+

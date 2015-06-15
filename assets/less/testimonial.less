@@ -1,0 +1,104 @@
+#lgx-testimonial{
+  margin-bottom: 0;
+  .lgx-inner {
+    padding: 50px 0 70px 0;
+  }
+
+  .lgx-dark-inner {
+    .bg-rgba(@black-base, .85);
+    .lgx-testicarousel {
+      .item  {
+        color: @white-color;
+        p {
+          color: inherit;
+        }
+      }
+    }
+  }
+
+  .lgx-testicarousel {
+    .carousel-indicators {
+      text-align: center;
+      margin: 0 auto;
+      position: static;
+      display: block;
+      width: 100%;
+      margin-top: 25px;
+      li {
+        width: auto;
+        height: auto;
+        display: inline-block;
+        text-indent:0;
+        background-color: transparent;
+        text-align: center;
+        border: 0;
+        margin: 0;
+        .border-radius(50%);
+        border: 3px solid @white-color;
+      }
+      .active  {
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        margin: 0;
+        border: 3px solid @brand-color;
+        .transition(0.3s,linear);
+      }
+    }
+    .item {
+      text-align: center;
+      .lgx-client {
+        margin: 0 0 25px 0;
+
+        h2 {
+          .font-size(2.4);
+          background-color: @white-color;
+          display: inline-block;
+          padding: 8px 15px;
+          color: @brand-color;
+          text-transform: uppercase;
+          margin-right: -58px;
+        }
+
+        h3 {
+          font-family: @lead-font-family;
+          font-weight: 400;
+          .font-size(2);
+          padding: 9px 15px;
+          background-color: @white-color;
+          display: inline-block;
+          color: @brand-color;
+          text-transform: uppercase;
+          margin-left: -60px;
+        }
+        span {
+          display: inline-block;
+          margin: 10px 0;
+          i {
+            font-size: 45px;
+            color: @brand-color;
+          }
+        }
+      }
+      p {
+        font-weight: 400;
+        .font-size(1.8);
+        line-height: 30px;;
+        color: @ash-medium;
+        font-family: @headings-font-family;
+        padding: 0 50px;
+      }
+
+
+    }
+  }
+
+}
+
+.lgx-testimonial-dark {
+  background: url('../img/bg/bg-testimonial.jpg') center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}

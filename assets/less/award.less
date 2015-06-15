@@ -1,0 +1,66 @@
+//** -------------------------------------------
+//*** LGX  AWARD SECTION
+//** -------------------------------------------
+
+#lgx-award {
+  background: url('../img/bg/award-bg.jpg') center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+
+  margin-bottom: 30px;
+  .lgx-inner {
+    .bg-rgba(@brand-color, .85);
+    padding: 80px 0;
+  }
+  .lgx-dark-inner {
+    .bg-rgba(@black-base, .85);
+  }
+
+
+  .lgx-counter-area {
+    text-align: center;
+    .bg-rgba(@white-color, .2);
+    .border-radius(50%);
+    text-align: center;
+    color: @white-color;
+    .hex-to-rgba (@brand-darker, .4);
+    border: 10px solid @rgba;
+    height: 220px;
+    max-width: 220px;
+    margin:0 auto;
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+    i {
+      .font-size(6);
+      color: @brand-darker;
+      margin-top: 15px;
+    }
+
+    .lgx-counter {
+      .font-size(5.5);
+      font-family: @headings-font-family;
+      font-weight:@headings-font-weight;
+      clear: both;
+      display: block;
+      max-height: 55px;
+      line-height: 60px;
+    }
+    small {
+      font-family: @lead-font-family;
+      font-weight: 400;
+      .font-size(1.5);
+      line-height: 16px;
+    }
+    &:hover {
+      .bg-rgba(@brand-color, 1);
+      border: 10px solid @rgba;
+      .hex-to-rgba (@white-color, .85);
+      .transition(300ms, ease 0s);
+    }
+
+  }
+}

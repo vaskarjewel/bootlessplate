@@ -1,0 +1,267 @@
+
+#lgx-resume {
+    padding-top: 100px;
+
+    .lgx-inner {
+        padding: 0;
+    }
+    .lgx-owl {
+        position: relative;
+    }
+}
+
+#lgx-experience {
+
+    .lgx-owl .item{
+        margin: 3px;
+        text-align: center;
+        span {
+            .border-radius(50%);
+            background-color: @black-lighten;
+            text-align: center;
+            width: 92px;
+            height: 92px;
+            display: inline-block;
+            border: 6px solid @ash-darker;
+            .transition(400ms, linear);
+            &:hover {
+                background-color: @white-color;
+                border-color:@brand-color ;
+            }
+            i {
+                .font-size(4.7);
+                margin-top: 15px;
+                color: @brand-color;
+            }
+        }
+
+        h6 {
+            .font-size(1.6);
+            font-family: @lead-font-family;
+            font-weight: 700;
+            color: @black-lighten;
+            text-transform: uppercase;
+        }
+
+        h4 {
+            color: @brand-color;
+            .font-size(2);
+            margin-bottom: 30px;
+        }
+
+        h5 {
+            color: @black-lighten;
+            .font-size(1.6);
+            font-family: @lead-font-family;
+            text-transform: uppercase;
+            font-weight: 400;
+            margin-top: 50px;
+            position: relative;
+            &:before{
+                content: "";
+                width: 0;
+                height: 0;
+                border-left: 17px solid transparent;
+                border-right: 18px solid transparent;
+                border-bottom: 18px solid @ash-darker;
+                position: absolute;
+                left: 46%;
+                top: -25px;
+                z-index: 1;
+            }
+        }
+
+    }
+    .lgx-owlarea {
+        position: relative;
+    }
+
+    .lgx-owlarea:before {
+        content: "";
+        width: 90%;
+        height: auto;
+        position: absolute;
+        top: 33%;
+        left: 5%;
+        border-top: 4px solid @brand-color;
+    }
+
+    .owl-theme .owl-controls .owl-buttons div {
+        background: none repeat scroll 0 0 transparent;
+        .border-radius(0);
+        color: @ash-darker;
+        display: inline-block;
+        font-size: 40px;
+        margin: 5px;
+        opacity: 1;
+        filter: alpha(opacity=100);
+        padding: 3px;
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+        &:hover {
+            color: @brand-color;
+        }
+    }
+
+}
+
+
+#lgx-education {
+
+    .lgx-subinner {
+
+    }
+
+    .owl-theme .owl-controls {
+        margin-top: 25px;
+        text-align: center;
+    }
+    .lgx-owl .item{
+        margin: 3px;
+        text-align: center;
+
+        .lgx-box {
+            h5 {
+                font-family: @lead-font-family;
+                font-weight: 400;
+                .font-size(1.6);
+                color: @black-lighten;
+                text-transform: uppercase;
+            }
+
+            h4 {
+                font-weight: 400;
+                font-style: italic;
+                .font-size(2);
+                color: @brand-color;
+            }
+
+            display: inline-block;
+            margin: 0 auto;
+            background-color: @white-color;
+            padding: 10px 20px;
+            border: 1px solid @white-color;
+            .transition(0.3s, linear);
+            &:hover {
+                border-color: @brand-color;
+            }
+        }
+
+        .lgx-boxup {
+            position: relative;
+            &:after{
+                content: "";
+                width: 0;
+                height: 0;
+                border-left: 17px solid transparent;
+                border-right: 18px solid transparent;
+                border-top: 18px solid @white-color;
+                position: absolute;
+                left: 44.5%;
+                bottom: -25px;
+                z-index: 888;
+            }
+        }
+
+        .lgx-boxbottom {
+            margin-top: 175px;
+            position: relative;
+            &:before{
+                content: "";
+                width: 0;
+                height: 0;
+                border-left: 17px solid transparent;
+                border-right: 18px solid transparent;
+                border-bottom: 18px solid @white-color;
+                position: absolute;
+                left: 44.5%;
+                top: -25px;
+                z-index: 1;
+            }
+        }
+
+        .lgx-dateup {
+            margin-top: 32px;
+            clear: both;
+            h6 {
+                .font-size(2);
+                color: @black-lighten;
+            }
+            span {
+                i {
+                    color: @brand-color;
+                    .font-size(2.2);
+                }
+            }
+        }
+
+        .lgx-dateup , .lgx-datebottom {
+            display: block;
+            .transition(400ms, linear);
+            &:hover {
+                i {
+                    .border-radius(50%);
+                    height: 20px;
+                    width: 20px;
+                    box-shadow:0 0 0 3px @brand-color;
+                    background-color:@brand-color;
+                }
+            }
+        }
+
+        .lgx-datebottom{
+            position: relative;
+            h6 {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 85px;
+                .font-size(2);
+                color: @black-lighten;
+            }
+            span {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 122px;
+
+                i {
+                    color: @brand-color;
+                    .font-size(2.2);
+                }
+            }
+        }
+    }
+
+    .lgx-owlarea {
+        position: relative;
+    }
+
+    .lgx-owlarea:before {
+        content: "";
+        width: 90%;
+        height: auto;
+        position: absolute;
+        top: 135px;
+        left: 5%;
+        border-top: 4px solid @ash-darker;
+    }
+
+    .owl-theme .owl-controls .owl-buttons div {
+        background: none repeat scroll 0 0 transparent;
+        .border-radius(0);
+        color: @ash-darker;
+        display: inline-block;
+        .font-size(4);
+        margin: 5px;
+        .opacity(1);
+        padding: 3px;
+        .transition(200ms, linear);
+        &:hover {
+            color: @brand-color;
+        }
+    }
+}
