@@ -1,33 +1,94 @@
 //***Customized by vaskar.me***
-// RESPONSIVE LESS
-// --------------------------------------------------
-
-//**Min-Width: Refers to everything greater than or equal to the amount given.
-//**Max-Width: Refers to everything less than or equal to the amount given.
+/* ---------------------------------------------------------------------------*/
+// CUSTOM  RESPONSIVE
+/* ---------------------------------------------------------------------------*/
+/***Min-Width: Refers to everything greater than or equal to the amount given.
+**Max-Width: Refers to everything less than or equal to the amount given.*/
 /*==================================================
-     =            Bootstrap 3 Media Queries      =
+     =       LGX     Bootstrap 3 Media Queries      =
   ==================================================*/
 
-/* Wide Screens */
-@media only screen and (min-width : 1400px) {
+/* -----------------------------------------------------------------------
+    Large devices (large desktops, 1200px and up)
+ ------------------------------------------------------------------------*/
+@media (min-width: @screen-lg-min) {
+    /************** 1200 GLOBAl USE***********/
+    /************** 1200 GLOBAl USE END***********/
+
+}
+
+/* -----------------------------------------------------------------------
+     Medium devices (desktops, UP TO 1199px~992px)
+ ------------------------------------------------------------------------*/
+@media (max-width : @screen-md-max) {
+    /************** 1199 GLOBAl USE***********/
+    html {
+        font-size: 55%;
+    }
+    /************** 1199 GLOBAl USE END***********/
+
+}
+
+/* ----------------------------------------------------------------------
+     Small devices (tablets, UP TO 991px~768px)
+ -----------------------------------------------------------------------*/
+@media (max-width : @screen-sm-max) {
+    /************** 991 GLOBAl USE***********/
+    html {
+        font-size: 60%;
+    }
+    /************** 991 GLOBAl USE END ***********/
+
+}
+
+/* ---------------------------------------------------------------------
+    Extra small devices (phones, less UP TO 767px)
+ ----------------------------------------------------------------------*/
+@media (max-width : @screen-xs-max) {
+    /************** 767 GLOBAl USE***********/
+    html {
+        font-size: 55%;
+    }
+
+    .xs-text-center {
+        text-align: center;
+    }
+    .xs-text-right {
+        text-align: right;
+    }
+
+    .xs-text-left {
+        text-align: left;
+    }
+    .xs-float-none {
+        float: none;
+    }
+
+    /************** 767 GLOBAl USE END***********/
 
 
-}//END 1201
+}/*767 END*/
+
+/* ----------------------------------------------------------------
+      Custom, iPhone Retina  UP TO 480px
+-------------------------------------------------------------------*/
+@media (max-width : 480px) {
+    /************** 480 GLOBAl USE***********/
+
+    html {
+        font-size: 50%;
+    }
+    /************** 480 GLOBAl USE***********/
+
+}
 
 
-/* Wide Screens */
-@media only screen and (max-width : 1201px) {
+/*-----------------------------------------------------------------------------
+    We occasionally expand on these media queries to a narrower set of devices.
+*-------------------------------------------------------------------------------*/
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
 
-
-}//END 1201
-
-/* Large Devices */
-@media only screen and (max-width : 1200px) {
-  /* BASIC TYPO */
-
-}//END 1200
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
+}
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    
 }
